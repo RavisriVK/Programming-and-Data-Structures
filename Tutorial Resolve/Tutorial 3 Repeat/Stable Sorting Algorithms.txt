@@ -1,0 +1,18 @@
+1) Insertion Sort:  When inserting a new element into the osrted portion of the array, 
+                    we insert it just after the first element >= to it, or at the beginning 
+                    of the array, if all elements are greater than it. So it is placed
+                    after elements equal to it.
+                    Hence: STABLE
+2) Merge Sort:      In merging the two sorted halves of the array (which we shall assume to
+                    be stably sorted), we ensure that equal elements are in their original 
+                    order.
+                    Hence: STABLE
+3) Bubble Sort:     STABLE
+4) Selection Sort:  NOT STABLE
+                    When choose the smallest element in the unsorted portion of the array, we 
+                    swap it with the first unsorted element, which can displace its order with 
+                    respect to other elements equal to it.
+5) Quick Sort:      NOT STABLE
+                    In the partitioning scheme, elements greater than pivot are moved in such a
+                    way that it is possible to destroy the order of such an element with respect 
+                    to other elements equal to it.

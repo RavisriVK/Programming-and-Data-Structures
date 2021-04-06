@@ -1,0 +1,1 @@
+g++ P1.cpp HashTable.cpp -o solution

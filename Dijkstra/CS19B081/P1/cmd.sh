@@ -1,0 +1,1 @@
+g++ P1.cpp List.cpp MinHeap.cpp Graph.cpp -o solution

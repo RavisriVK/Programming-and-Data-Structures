@@ -1,0 +1,1 @@
+g++ P2.cpp stack.cpp -o solution
